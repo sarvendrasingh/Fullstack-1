@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsiveness Of A Page</title>
+    <style>
+      .container {
+        width: 1200px;
+        border: solid;
+        margin: 0px auto;
+        padding: 15px;
+      }
+      .header {
+        width: 100%;
+        background-color: lightgray;
+        height: 70px;
+        margin-bottom: 15px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        color: white;
+      }
+      .content {
+        margin-bottom: 15px;
+      }
+      .content::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      .left {
+        width: 20%;
+        float: left;
+      }
+
+      .nav {
+        order: 2;
+        width: 100%;
+        height: 400px;
+
+        background-color: blueviolet;
+
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        color: white;
+      }
+      .news {
+        width: 100%;
+        height: 200px;
+        background-color: orangered;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 40px;
+        color: white;
+      }
+      .mainContent {
+        width: 78%;
+        height: 615px;
+
+        float: right;
+        background-color: goldenrod;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        color: white;
+      }
+      .footer {
+        width: 100%;
+        background-color: lightskyblue;
+        height: 70px;
+
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">HEADER</div>
+      <div class="content">
+        <div class="left">
+          <div class="nav">NAV BAR</div>
+          <div class="news">NEWS UPDATE</div>
+        </div>
+
+        <div class="mainContent">MAIN CONTENT</div>
+      </div>
+      <div class="footer">FOOTER</div>
+    </div>
+  </body>
+</html>

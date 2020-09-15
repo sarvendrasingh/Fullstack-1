@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: 'Roboto Slab', serif;
+        }
+        .container{
+            width: 80%;
+            height: 600px;
+            border: 2px solid;
+            margin: 10px auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        /* h1{
+            text-align: center;
+        } */
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 2px solid;
+            background-color: blueviolet;
+        }
+        #heading{
+            text-align: center;
+        }
+        #item-1{
+            background-color: rgb(156, 160, 95);
+            order: 4;
+            text-align: center;
+        }
+        #item-2{
+            background-color: rgb(134, 95, 160);
+            order: 3;
+            text-align: center;
+        }
+        #item-3{
+            background-color: rgb(160, 95, 100);
+            text-align: center;
+            order: 1;
+        }
+        #item-4{
+            background-color: rgb(231, 186, 186);
+            text-align: center;
+            order: 2;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="heading">This is a Flex-Box example.</h1>
+    <div class="container">
+        
+        <div class="box" id="item-1">First Box</div>
+        <div class="box" id="item-2">Second Box</div>
+        <div class="box" id="item-3">Third Box</div>
+        <div class="box" id="item-4">Fourth-Box</div>
+    </div>
+</body>
+</html>

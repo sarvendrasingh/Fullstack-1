@@ -1,0 +1,52 @@
+.container{
+    width: 900px;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid;
+    margin: 25px auto;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    transition-property: backgraound-color;
+    transition-duration: 1s;
+    transition-delay: 2s;
+    text-align: center;
+    transition-timing-function: ease-in-out;
+
+}
+#box-1:hover{
+    background-color: darkgreen;
+    font-size: 46px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+
+}
+#box-2:hover{
+    background-color: yellow;
+    font-size: 46px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+
+}
+#box-3:hover{
+    background-color:gray;
+    font-size: 46px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+
+}
+#box-4:hover{
+    background-color: rgb(18, 44, 129);
+    font-size: 46px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+
+}
